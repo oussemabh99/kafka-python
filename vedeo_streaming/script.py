@@ -10,6 +10,7 @@ while(True):
   
     # Display the resulting frame 
     cv2.imshow('frame', frame) 
+    
       
     # the 'q' button is set as the 
     # quitting button you may use any 

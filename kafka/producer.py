@@ -1,7 +1,7 @@
 import base64
 from kafka import KafkaProducer
 from kafka.errors import KafkaError
-image = open('bird-thumbnail.jpg', 'rb')
+image = open(r'/home/hdid/kafka-python/images/bird-thumbnail.jpg', 'rb')
 image_read = image.read()
 image_64_encode = base64.b64encode(image_read)
 producer= KafkaProducer(bootstrap_servers ='localhost:9092')
